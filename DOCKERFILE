@@ -1,6 +1,6 @@
 FROM cloudtogouser/pageplug-ce:v1.9.37
 
-ENV TZ=Asia/Shanghai
+ENV TZ==Asia/Taipei
 
 EXPOSE 80
 EXPOSE 443
