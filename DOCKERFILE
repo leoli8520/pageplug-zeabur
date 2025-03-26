@@ -1,0 +1,8 @@
+FROM cloudtogouser/pageplug-ce:v1.9.37
+
+ENV TZ=Asia/Shanghai
+
+EXPOSE 80
+EXPOSE 443
+
+CMD ["/opt/appsmith/entrypoint.sh"]

@@ -1,0 +1,6 @@
+{
+  "service": {
+    "type": "docker-compose",
+    "port": 80
+  }
+}
